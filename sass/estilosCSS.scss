@@ -1,0 +1,31 @@
+/*Proyecto JoaEzisystem*/
+/***********************/
+
+/*GOOGLE FONT*/
+@import "./utiles/googleFont";
+
+
+
+/*VARIABLES*/
+@import "./utiles/variables";
+
+/*GLOBALES*/
+@import "./utiles/animaciones";
+@import "./utiles/globales";
+@import "./utiles/normalizado";
+
+/*PARCIAL*/
+@import "./parcial/encabezado";
+@import "./parcial/piePag";
+@import "./parcial/botones";
+
+/*VISTAS*/
+@import "./vistas/index";
+@import "./vistas/sistemasWeb";
+@import "./vistas/digitalizacion3d";
+@import "./vistas/fabricacion3d";
+@import "./vistas/contacto";
+
+
+
+

@@ -1,0 +1,22 @@
+ /*Normalizado estilos iniciales*/
+ *,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%; /*Por default es 16px*62.5= tamano a 10px*/
+    font-family: "Roboto", sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  

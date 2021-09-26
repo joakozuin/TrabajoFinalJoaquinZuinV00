@@ -1,0 +1,130 @@
+/*Vista index.html*/
+/******************/
+
+
+
+$colorBackground: azure;
+
+@mixin tamanoImagenes($alto,$ancho) {
+    background-size: cover;
+    margin: 10px auto;
+    width: $ancho;
+    height: $alto;
+    /* width: 85%;
+    height: 300px; */
+    padding: 20px;
+    background-color: $colorBackground;
+    border-radius: 1rem;
+}
+
+@mixin textoTarjetas($pad){
+  font-size: 1.5em;
+  text-align: justify;
+  text-transform: capitalize;
+  padding: $pad;  
+ /*  padding: 10px; */
+  margin-left: 10px;
+
+}
+
+
+
+.h01Seccion011{
+     background-color: #c7cecd36;
+     border-style: solid;
+     border-width: 1px;
+     margin-top:10px;
+     margin-bottom: 10px;
+   }
+   
+   .h01Seccion01{
+     width: 100%;
+     height: 550px;
+     background-image: url(../img/imagen02.jpeg);
+     background-size: cover;
+     background-color: #c7cecd;
+     border-style: solid;
+     border-width: 1px;
+     margin-top:10px;
+     margin-right: 20px;
+     &__area00 {
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 60%;
+        padding: 10px;
+        background-color: rgba(108, 146, 202, 0.075);
+        box-shadow: 5px 5px 5px 5px rgb(102, 102, 102);
+        border-radius: 20px;
+        &__pTexto02 {
+            font-size: 6em;
+            text-align: justify;
+            text-transform: none;
+            padding: 10px;
+            color: #64f1f5;
+            text-shadow: 2px 4px 5px rgba(64,64,64,1);
+            font-weight: 400;
+            line-height: 1;
+          }
+          &__pTexto03 {
+            font-size: 2.4em;
+            text-align: justify;
+            text-transform: none;
+            padding: 12px;
+            line-height: 1.2;
+            color: #0a0a0b;
+          }
+      }
+   
+      &__area01 {
+        width:40%;
+        height:50px;
+        border-radius: 1rem;
+        background-color: rgba(108, 146, 202, 0.075);
+      }
+   }
+   
+   
+   .h01Seccion02{
+      margin-top: 15px;
+      &__fondo01 {
+         width: 430px;
+         background-color: #e5ebea;
+         border-style: solid;
+         border-width: 1px;
+         margin: 5px;
+         border-radius: 1rem;
+         padding: 10px;
+         overflow: hidden;
+         &__imagen02 {
+          background-image: url(../img/sistemasWebN1V00.jpeg);
+
+          @include tamanoImagenes(300px,85%);
+
+        }
+        &__pTexto02 {
+
+          @include textoTarjetas(5px);
+        }
+        &__imagen03 {
+          background-image: url(../img/escaneo3DN1V00.jpg);
+
+          @include tamanoImagenes(300px,85%);
+
+        }
+        &__pTexto03 {
+
+          @include textoTarjetas(5px);
+        }
+        &__imagen04 {
+          background-image: url(../img/fabricacion3DN1V02.jpg);
+          
+          @include tamanoImagenes(300px,85%);
+        }
+        &__pTexto04 {
+
+          @include textoTarjetas(5px);
+        }
+       }
+
+    }
+     
