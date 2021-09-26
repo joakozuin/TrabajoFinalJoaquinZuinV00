@@ -59,65 +59,85 @@
 
       <main class="padreGrid05">
 
-          <section class=" h05Seccion01">
+          <section class="h05Seccion01">
               <!-- Inicio de section Formulario-->
-              <form class="centradoFormulario">
+              <form class="h05Seccion01__centFormulario">
                   <!-- Inicio de from-->
-                  <fieldset class="elementFormCentrado">
-                      <legend class="labelFormato00">Envianos un mensaje</legend>
-                      <div>
-                          <!-- Inicio de div Sexo-->
-                          <label class="labelFormato01" for="sexo">Selecione tu sexo</label> <br> <br>
-                          <input class="inputFormato01" type="radio" id="hombre" name="sexo" value="hombre">
-                          <label class="labelFormato01" for="hombre">Hombre</label>
-                          <input class="inputFormato01" type="radio" id="mejer" name="sexo" value="mujer">
-                          <label class="labelFormato01" for="mujer">Mujer</label>
-                          <input class="inputFormato01" type="radio" id="otro" name="sexo" value="otro">
-                          <label class="labelFormato01" for="mujer">otro</label>
+                  <fieldset class="h05Seccion01__elementFormCentrado">
+                      <legend class="h05Seccion01__labelFormato00">Envianos un mensaje</legend>
+                     
+                      <!-- Inicio de div Sexo-->
+                      <div> 
+                          <label class="h05Seccion01__labelFormato01" for="sexo">Selecione tu sexo</label> <br> <br>
+                          <input class="h05Seccion01__inputFormato01" type="radio" id="hombre" name="sexo" value="hombre">
+                          <label class="h05Seccion01__labelFormato01" for="hombre">Hombre</label>
+                          <input class="h05Seccion01__inputFormato01" type="radio" id="mejer" name="sexo" value="mujer">
+                          <label class="h05Seccion01__labelFormato01" for="mujer">Mujer</label>
+                          <input class="h05Seccion01__inputFormato01" type="radio" id="otro" name="sexo" value="otro">
+                          <label class="h05Seccion01__labelFormato01" for="mujer">otro</label>
                           <br><br>
-                      </div><!-- fin de div Sexo-->
+                      </div>
+                      <!-- fin de div Sexo-->
+                      <!-- Inicio de div nombre-->
                       <div class="">
-                          <!-- Inicio de div nombre-->
-                          <label class="labelFormato01" for="uname" class="">Nombre y Apellido:</label><br>
-                          <input type="text" class="nombreApellido" id="uname" placeholder="Tu nombre y apellido"
+                         
+                          <label class="h05Seccion01__labelFormato01" for="uname" class="">Nombre y Apellido:</label><br>
+                          <input type="text" class="h05Seccion01__nombreApellido" id="uname" placeholder="Tu nombre y apellido"
                               name="uname" required maxlength="100">
                           <br><br>
-                      </div><!-- fin de div nombre-->
+                      </div>
+                      <!-- fin de div nombre-->
+
+                      <!-- Inicio de div telefono-->
                       <div class="">
-                          <!-- Inicio de div telefono-->
-                          <label class="labelFormato01" for="uname">Teléfono:</label><br>
-                          <input type="number" class="texTarea" id="uname" placeholder="Tu número de télefono" name="uname"
+                      
+                          <label class="h05Seccion01__labelFormato01" for="uname">Teléfono:</label><br>
+                          <input type="number" class="h05Seccion01__texTarea" id="uname" placeholder="Tu número de télefono" name="uname"
                               required>
                           <br><br>
-                      </div><!-- fin de div telefono-->
+                      </div>
+                      <!-- fin de div telefono-->
+
+                      <!-- Inicio de div mail-->
                       <div class="">
-                          <!-- Inicio de div mail-->
-                          <label class="labelFormato01" for="uname">E-mail: </label><br>
-                          <input type="email" class="texTarea" id="uname" placeholder="Tu e-mail" name="uname" required>
+                      
+                          <label class="h05Seccion01__labelFormato01" for="uname">E-mail: </label><br>
+                          <input type="email" class="h05Seccion01__texTarea" id="uname" placeholder="Tu e-mail" name="uname" required>
                           <br><br>
-                      </div><!-- fin de div  mail-->
+                      </div>
+                      <!-- fin de div  mail-->
+
+                      <!-- Inicio de div fecha-->
                       <div class="">
-                          <!-- Inicio de div fecha-->
-                          <label class="labelFormato01" for="uname">Fecha actual: </label><br>
-                          <input type="date" class="texTarea" id="uname" name="uname" required>
+                     
+                          <label class="h05Seccion01__labelFormato01" for="uname">Fecha actual: </label><br>
+                          <input type="date" class="h05Seccion01__texTarea" id="uname" name="uname" required>
                           <br><br>
-                      </div><!-- fin de div  mail-->
+                      </div>
+                      <!-- fin de div  mail-->
+
+                     <!-- Inicio de div servicio-->
                       <div class="">
-                          <!-- Inicio de div servicio-->
-                          <label class="labelFormato01" for="cars">Seleciona un Servicio:</label><br>
-                          <select class="texTarea" name="card" id="card">
+ 
+                          <label class="h05Seccion01__labelFormato01" for="cars">Seleciona un Servicio:</label><br>
+                          <select class="h05Seccion01__texTarea" name="card" id="card">
                               <option value="sitemasWeb">Sistemas Web</option>
                               <option value="digitalización3D">Digitalización 3D</option>
                               <option value="fabricación3D">fabricación 3D</option>
                           </select>
-                      </div><!-- fin de div  servicio--> <br>
+                      </div>
+                      <!-- fin de div  servicio--> 
+                      <br>
+                      <!--Inicio de textarea -->
                       <div id="" class="">
-                          <!--Inicio de textarea -->
+                         
                           <div class="">
-                              <label class="labelFormato01" for="uname">Dajanos tu Consulta </label><br>
-                              <textarea class="texTarea" placeholder="Tu Consulta" id="floatingTextarea2"></textarea>
+                              <label class="h05Seccion01__labelFormato01" for="uname">Dajanos tu Consulta </label><br>
+                              <textarea class="h05Seccion01__texTarea1" placeholder="Tu Consulta" id="floatingTextarea2"></textarea>
                           </div>
-                      </div><!-- fin textarea --> <br>
+                      </div>
+                      <!-- fin textarea -->
+                       <br>
                       <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                       <button type="reset" class="btn btn-primary btn-lg">VaciarCampos</button>
                   </fieldset>
@@ -131,10 +151,10 @@
           </section>
 
           <section class="h05Seccion03 flexFila">
-              <div class="seccionArea00">
+              <div class="h05Seccion03__seccionArea00">
                   <div class="  ">
                       <a href="">
-                          <div class="logoLlamar">
+                          <div class="h05Seccion03__seccionArea00__logoLlamar">
                           </div>
                       </a>
                       <h5>TELELEFONO</h5>
@@ -146,10 +166,10 @@
                   </div>
               </div>
 
-              <div class="seccionArea00">
+              <div class="h05Seccion03__seccionArea00">
                   <div class="  ">
                       <a href="">
-                          <div class="logoUbicacion">
+                          <div class="h05Seccion03__seccionArea00__logoUbicacion">
                           </div>
                       </a>
                       <h5>NUESTRA UBICACION</h5>
@@ -161,10 +181,10 @@
                   </div>
               </div>
 
-              <div class="seccionArea00">
+              <div class="h05Seccion03__seccionArea00">
                   <div class="  ">
                       <a href="">
-                          <div class="logoHorarios">
+                          <div class="h05Seccion03__seccionArea00__logoHorarios">
                           </div>
                       </a>
                       <h5>HORARIOS</h5>
