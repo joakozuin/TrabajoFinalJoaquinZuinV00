@@ -554,14 +554,14 @@ textarea {
 /*_______HEADER______*/
 /*Barra de Navegacion*/
 
-header {
- /*  height: 80px; */
+/* header {
   height: auto;
   background-color: rgb(210, 230, 229);
- /*  grid-area: 1 / 1 / 2 / 13; */
-}
+} */
+
+/*
 .navegacion {
- /*  font-size:0 ; */
+ 
   height: 100%;
   width: 90%;
   margin: 0 auto;
@@ -569,14 +569,13 @@ header {
  
 }
 
-.navegacion .logo00 {
+.navegacion_logo00 {
   width: 20%;
   height: 100%;
   display: flex;
   justify-content:space-around;
   align-items: center;
- /*  overflow: hidden; */
- /* background-color: rgb(104, 96, 190); */
+ 
   
 }
 
@@ -589,7 +588,7 @@ header {
   font-weight: 400;
 }
 
-.logoImg00 {
+.navegacion_logo00_logoImg00 {
   background-image: url("../img/logoJoaEzis00.svg");
   height: 60px;
   width: 60px;
@@ -597,6 +596,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+*/
 
 .navegacion .menu {
   width: 80%;
@@ -627,16 +628,22 @@ header {
   
 } */
 
- .navbar-nav  .nav-item:hover .nav-link {
+
+/*Encab adaptado clases bootstrap 5*/
+/***********************************/
+
+/*  .navbar-nav  .nav-item:hover .nav-link {
   background-color: rgb(96, 190, 190);
   color: #64f1f5;
   
- }
+ } */
 
  /* Set the border color to the desired color */
- .navbar-light .navbar-toggler {
+ /* .navbar-light .navbar-toggler {
   border-color: rgb(28, 30, 29);
-}
+} */
+
+
 
 /* 
 .subMenu {

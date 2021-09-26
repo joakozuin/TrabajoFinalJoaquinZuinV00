@@ -1,0 +1,55 @@
+/*Inicio Encabezado de página*/
+/*****************************/
+header {
+    /*  height: 80px; */
+     height: auto;
+     background-color: rgb(210, 230, 229);
+    /*  grid-area: 1 / 1 / 2 / 13; */
+   }
+
+   .navegacion {
+    /*  font-size:0 ; */
+     height: 100%;
+     width: 90%;
+     margin: 0 auto;
+     padding: 1rem 0;
+     &__logo00{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        &__logoImg00{
+            background-image: url("../img/logoJoaEzis00.svg");
+            height: 60px;
+            width: 60px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+     }
+
+     & a:nth-child(2){
+        text-decoration: none;
+        font-size: 2.2em;
+        font-family: "Roboto", sans-serif;
+        color: #64f1f5;
+        text-shadow: 1px 1px 2px rgba(64,64,64,1);
+        font-weight: 400;
+      }
+    
+   }
+  /*Encab adaptado clases bootstrap 5*/
+  /***********************************/   
+  .navbar-nav  .nav-item:hover .nav-link {
+    background-color: rgb(96, 190, 190);
+    color: #64f1f5;
+    
+   }
+  
+   /* Set the border color to the desired color */
+   .navbar-light .navbar-toggler {
+    border-color: rgb(28, 30, 29);
+  }
+  /*Fin Encabezado de página*/
+  /*****************************/
