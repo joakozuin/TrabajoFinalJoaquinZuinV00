@@ -127,6 +127,20 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
+  @media screen and (max-width: 1800px) {
+    .navegacion__menu {
+      font-size: 1.8em;
+      font-weight: bold; } }
+  @media screen and (max-width: 1400px) {
+    .navegacion__menu {
+      font-size: 1.8em;
+      font-weight: bold; } }
+  @media screen and (max-width: 1200px) {
+    .navegacion__menu {
+      font-size: 1.4em; } }
+  @media screen and (max-width: 992px) {
+    .navegacion__menu {
+      font-size: 1.2em; } }
   .navegacion a:nth-child(2) {
     text-decoration: none;
     font-size: 2.2em;
@@ -603,3 +617,5 @@ footer {
 
 /*Fin Vista Página Contacto*/
 /************************/
+/*PARCIAL*/
+/* @import "./parcial/mediaqueries"; */

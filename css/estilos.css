@@ -815,7 +815,7 @@ li:hover > .subMenu {
 
 /***RESPONSIVE MEDIA QUERIES*********/
 
-@media screen and (max-width:1400px) {
+/* @media screen and (max-width:1400px) {
 
   .navegacion .menu {
    
@@ -840,4 +840,4 @@ li:hover > .subMenu {
     font-size: 1.2em;
   }
 
-}
+} */

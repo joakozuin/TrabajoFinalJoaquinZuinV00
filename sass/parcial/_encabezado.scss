@@ -28,7 +28,23 @@ header {
             background-size: cover;
         }
      }
+     &__menu{
+      @media screen and (max-width:1800px) {
+         font-size: 1.8em;
+         font-weight:bold;
+     }
+      @media screen and (max-width:1400px) {
+           font-size: 1.8em;
+           font-weight:bold;
+       }
+       @media screen and (max-width:1200px) {
+           font-size: 1.4em; 
+       }
+       @media screen and (max-width:992px) {  
+           font-size: 1.2em;
+       }
 
+     }
      & a:nth-child(2){
         text-decoration: none;
         font-size: 2.2em;
