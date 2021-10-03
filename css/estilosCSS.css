@@ -135,7 +135,7 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
-  @media screen and (max-width: 1800px) {
+  @media screen and (max-width: 2200px) {
     .navegacion__menu {
       font-size: 1.8em;
       font-weight: bold; } }
