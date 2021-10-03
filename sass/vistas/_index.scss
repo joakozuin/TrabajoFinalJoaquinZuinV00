@@ -55,6 +55,11 @@ $colorBackground: azure;
         background-color: rgba(108, 146, 202, 0.075);
         box-shadow: 5px 5px 5px 5px rgb(102, 102, 102);
         border-radius: 20px;
+
+        @media screen and (max-width:567px) { 
+          width: 90%;
+         }
+
         &__pTexto02 {
             font-size: 6em;
             text-align: justify;
@@ -89,6 +94,10 @@ $colorBackground: azure;
         height:50px;
         border-radius: 1rem;
         background-color: rgba(108, 146, 202, 0.075);
+
+        @media screen and (max-width:567px) { 
+          width: 10%;
+         }
       }
    }
    

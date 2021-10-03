@@ -250,6 +250,9 @@ footer {
     background-color: rgba(108, 146, 202, 0.075);
     box-shadow: 5px 5px 5px 5px #666666;
     border-radius: 20px; }
+    @media screen and (max-width: 567px) {
+      .h01Seccion01__area00 {
+        width: 90%; } }
     .h01Seccion01__area00__pTexto02 {
       font-size: 6em;
       text-align: justify;
@@ -277,6 +280,9 @@ footer {
     height: 50px;
     border-radius: 1rem;
     background-color: rgba(108, 146, 202, 0.075); }
+    @media screen and (max-width: 567px) {
+      .h01Seccion01__area01 {
+        width: 10%; } }
 
 .h01Seccion02 {
   margin-top: 15px; }
