@@ -9,6 +9,14 @@ footer {
     height: 150px;
     justify-content: space-between;
     padding: 50px;
+
+    @include flexFil();
+
+    @media screen and (max-width:567px) { 
+      height: 250px;
+      @include flexColNoWrap();
+     }
+     
   }
 
   .footArea00{
@@ -17,6 +25,9 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    @media screen and (max-width:567px) { 
+      width: 40%;
+     }
     &__h3 {
       color: #29b6f6;
       margin-left: 10px;
@@ -29,10 +40,13 @@ footer {
 
   .footArea01 {
     height: auto;
-    width: 60%;
+    width: 50%;
     padding: 5px;
     display: flex;
     justify-content: center;
+    @media screen and (max-width:567px) { 
+      width: 20%;
+     }
     &__logoImg01 {
       background-image: url("../img/logoJoaEzis00.svg");
       height: 60px;
@@ -46,11 +60,14 @@ footer {
   
   .footArea02 {
     height: auto;
-    width: 15%;
+    width: 25%;
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    @media screen and (max-width:567px) { 
+      width: 40%;
+     }
     &__areaLogo{
       height: 30px;
       width: 30px;

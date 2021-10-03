@@ -13,20 +13,48 @@
 
 /*FLEX Configuracion */
 /********************/
-.flexColum {
+
+@mixin flexCol() {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
-  }
-  .flexFila {
+
+}
+
+@mixin flexColNoWrap() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap:nowrap; 
+}
+
+
+@mixin flexFil() {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     align-items: center;
     flex-wrap: wrap; 
+
+}
+.flexColum {
+  @include flexCol();
+  
+  }
+
+  .flexColumNoWrap {
+    @include flexColNoWrap();
+    
+    }
+
+  .flexFila {
+    @include flexFil();
+    
   }
   .flexFilaNoWrap {
     display: flex;

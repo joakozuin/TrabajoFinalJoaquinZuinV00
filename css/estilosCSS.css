@@ -36,6 +36,14 @@ font-family: 'Roboto', sans-serif;
   align-content: center;
   align-items: center; }
 
+.flexColumNoWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap; }
+
 .flexFila {
   display: flex;
   flex-direction: row;
@@ -171,7 +179,22 @@ footer {
   width: 100%;
   height: 150px;
   justify-content: space-between;
-  padding: 50px; }
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 567px) {
+    footer {
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-wrap: nowrap; } }
 
 .footArea00 {
   height: auto;
@@ -179,6 +202,9 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column; }
+  @media screen and (max-width: 567px) {
+    .footArea00 {
+      width: 40%; } }
   .footArea00__h3 {
     color: #29b6f6;
     margin-left: 10px;
@@ -188,10 +214,13 @@ footer {
 
 .footArea01 {
   height: auto;
-  width: 60%;
+  width: 50%;
   padding: 5px;
   display: flex;
   justify-content: center; }
+  @media screen and (max-width: 567px) {
+    .footArea01 {
+      width: 20%; } }
   .footArea01__logoImg01 {
     background-image: url("../img/logoJoaEzis00.svg");
     height: 60px;
@@ -202,11 +231,14 @@ footer {
 
 .footArea02 {
   height: auto;
-  width: 15%;
+  width: 25%;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: row; }
+  @media screen and (max-width: 567px) {
+    .footArea02 {
+      width: 40%; } }
   .footArea02__areaLogo {
     height: 30px;
     width: 30px;
