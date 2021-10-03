@@ -64,6 +64,10 @@ $colorBackground: azure;
             text-shadow: 2px 4px 5px rgba(64,64,64,1);
             font-weight: 400;
             line-height: 1;
+
+            @media screen and (max-width:768px) {  
+              font-size: 4em;
+          }
           }
           &__pTexto03 {
             font-size: 2.4em;
@@ -72,6 +76,11 @@ $colorBackground: azure;
             padding: 12px;
             line-height: 1.2;
             color: #0a0a0b;
+
+            @media screen and (max-width:768px) {  
+              font-size: 1.8em;
+          }
+
           }
       }
    
