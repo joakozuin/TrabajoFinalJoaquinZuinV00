@@ -20,7 +20,7 @@ $colorBackground: azure;
 @mixin textoTarjetas($pad){
   font-size: 1.5em;
   text-align: justify;
-  text-transform: capitalize;
+  text-transform:none;
   padding: $pad;  
  /*  padding: 10px; */
   margin-left: 10px;

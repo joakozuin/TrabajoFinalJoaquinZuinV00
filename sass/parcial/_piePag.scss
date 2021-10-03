@@ -21,7 +21,7 @@ footer {
 
   .footArea00{
     height: auto;
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -35,12 +35,13 @@ footer {
     }
     &__p{
       color: rgb(255, 255, 255);
+      margin-left: 10px;
     }
    }
 
   .footArea01 {
     height: auto;
-    width: 50%;
+    width: 60%;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -60,7 +61,7 @@ footer {
   
   .footArea02 {
     height: auto;
-    width: 25%;
+    width: 20%;
     padding-top: 20px;
     display: flex;
     justify-content: space-between;

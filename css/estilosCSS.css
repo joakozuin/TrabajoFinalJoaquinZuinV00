@@ -69,12 +69,12 @@ font-family: 'Roboto', sans-serif;
 /******************************/
 h1 {
   color: #29b6f6;
-  margin-left: 20px; }
+  margin-left: 3em; }
 
 h2 {
   color: #0a0a0a;
-  text-align: center;
-  font-size: 2.5em;
+  text-align: left;
+  font-size: 2em;
   font-family: "Andada Pro", serif;
   font-family: "Merriweather", serif; }
 
@@ -198,7 +198,7 @@ footer {
 
 .footArea00 {
   height: auto;
-  width: 25%;
+  width: 20%;
   display: flex;
   justify-content: center;
   flex-direction: column; }
@@ -210,11 +210,12 @@ footer {
     margin-left: 10px;
     font-size: 2em; }
   .footArea00__p {
-    color: white; }
+    color: white;
+    margin-left: 10px; }
 
 .footArea01 {
   height: auto;
-  width: 50%;
+  width: 60%;
   padding: 5px;
   display: flex;
   justify-content: center; }
@@ -231,7 +232,7 @@ footer {
 
 .footArea02 {
   height: auto;
-  width: 25%;
+  width: 20%;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -341,7 +342,7 @@ footer {
     .h01Seccion02__fondo01__pTexto02 {
       font-size: 1.5em;
       text-align: justify;
-      text-transform: capitalize;
+      text-transform: none;
       padding: 5px;
       /*  padding: 10px; */
       margin-left: 10px; }
@@ -359,7 +360,7 @@ footer {
     .h01Seccion02__fondo01__pTexto03 {
       font-size: 1.5em;
       text-align: justify;
-      text-transform: capitalize;
+      text-transform: none;
       padding: 5px;
       /*  padding: 10px; */
       margin-left: 10px; }
@@ -377,7 +378,7 @@ footer {
     .h01Seccion02__fondo01__pTexto04 {
       font-size: 1.5em;
       text-align: justify;
-      text-transform: capitalize;
+      text-transform: none;
       padding: 5px;
       /*  padding: 10px; */
       margin-left: 10px; }
