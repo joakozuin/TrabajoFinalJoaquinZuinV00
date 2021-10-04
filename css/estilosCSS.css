@@ -421,6 +421,9 @@ footer {
         @media screen and (max-width: 380px) {
           .h02Seccion01__fondo05__area03__pTexto01 {
             font-size: 1.1em; } }
+      .h02Seccion01__fondo05__area03__boton {
+        margin-left: 15px;
+        margin-bottom: 5px; }
     .h02Seccion01__fondo05__imagen02 {
       background-image: url(../img/sistemasWebN1V00.jpeg);
       background-size: cover;
