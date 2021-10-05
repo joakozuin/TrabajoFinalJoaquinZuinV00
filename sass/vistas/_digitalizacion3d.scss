@@ -1,53 +1,62 @@
 /*Vista digitalizacion3D.html*/
 /****************************/
 .h03Seccion01{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  @include flexFil();
     &__fondo05{
         width: 550px;
         height: 700px;
         background-color: #c7cecdaf;
         border-style: solid;
         border-width: 1px;
-        margin: 5px;
+        margin: 20px 15px 15px 10px;
         border-radius: 1rem;
         padding: 10px;
         &__area03{
             margin: 10px auto;
-            width: 90%;
+            width: 95%;
             padding: 20px;
             background-color: rgba(236, 244, 243, 0.948);
             box-shadow: 1px 1px 1px 1px rgb(102, 102, 102);
-            /*box-shadow: inset 0 0 20px 5px #fff;*/
+            /* box-shadow: inset 0 0 20px 5px #fff; */
             border-radius: 10px;
             &__pTexto01{
                 font-size: 1.5em;
                 text-align: justify;
-                text-transform: capitalize;
+                text-transform: none;
                 padding: 10px;
                 margin-left: 10px;
+
+                @media screen and (max-width:567px) {  
+                  font-size: 1.2em;
               }
+
+             @media screen and (max-width:380px) {  
+                font-size: 1.1em;
+             }
+            
           }
+
+          &__boton{
+            margin-left: 15px;
+            margin-bottom: 5px;
+          }
+        }
           &__imagen02{
-            background-image: url(../img/fabricacion3DN1V02.jpg);
+            background-image: url(../img/escaneo3DN2V00.jpg);
             background-size: cover;
             margin: 10px auto;
-            width: 90%;
-            height: 300px;
+            width: 95%;
+            height: 310px;
             padding: 20px;
             background-color: azure;
             border-radius: 1rem;
           }
           &__imagen03{
-            background-image: url(../img/fabricacion3DN1V02.jpg);
+            background-image: url(../img/escanerConContactoV01.jpg);
             background-size: cover;
             margin: 10px auto;
-            width: 90%;
-            height: 300px;
+            width: 95%;
+            height: 310px;
             padding: 20px;
             background-color: azure;
             border-radius: 1rem;

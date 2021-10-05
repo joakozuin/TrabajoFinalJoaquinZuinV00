@@ -30,12 +30,13 @@ footer {
      }
     &__h3 {
       color: #29b6f6;
-      margin-left: 10px;
+      margin-left: 20px;
       font-size: 2em;
     }
     &__p{
       color: rgb(255, 255, 255);
-      margin-left: 10px;
+      margin-left: 20px;
+      font-size: 1.2em;
     }
    }
 
@@ -72,6 +73,7 @@ footer {
     &__areaLogo{
       height: 30px;
       width: 30px;
+      margin-right: 20px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
