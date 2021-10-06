@@ -537,6 +537,15 @@ footer {
         text-transform: capitalize;
         padding: 10px;
         margin-left: 10px; }
+        @media screen and (max-width: 567px) {
+          .h04Seccion01__fondo05__area03__pTexto01 {
+            font-size: 1.2em; } }
+        @media screen and (max-width: 380px) {
+          .h04Seccion01__fondo05__area03__pTexto01 {
+            font-size: 1.1em; } }
+        .h04Seccion01__fondo05__area03__pTexto01__boton {
+          margin-left: 15px;
+          margin-bottom: 5px; }
     .h04Seccion01__fondo05__imagen02 {
       background-image: url(../img/imagen01.png);
       background-size: cover;
