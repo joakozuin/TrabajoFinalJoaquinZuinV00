@@ -163,6 +163,13 @@ header {
   background-color: #60bebe;
   color: #64f1f5; }
 
+.active {
+  background: #c4c9c9;
+  color: #64f1f5;
+  text-shadow: 1px 1px 3px #404040;
+  font-size: 1.1em;
+  font-weight: 500; }
+
 /* Set the border color to the desired color */
 .navbar-light .navbar-toggler {
   border-color: #1c1e1d; }
