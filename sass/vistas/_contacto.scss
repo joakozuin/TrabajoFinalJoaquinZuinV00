@@ -10,6 +10,36 @@
     background-color: rgba(99, 106, 106, 0.331);
     justify-content: center;
     align-content: center;
+    @media screen and (max-width:567px) { 
+      grid-template-rows: repeat(9, 90px);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      
+     }
+     @media screen and (max-width:857px) { 
+
+      display:block;
+      
+     }
+     
+     @media screen and (max-width:567px) { 
+
+      display:block;
+      
+     }
+     @media screen and (max-width:360px) { 
+    
+      display:block;
+     
+     }
+     @media screen and (max-width:320px) { 
+    
+      display:block;
+     
+     }
+    
+     
+
   }
 
   .h05Seccion01{
@@ -31,6 +61,7 @@
         padding-left: 50px;
         padding-top: 10px;
         padding-bottom: 10px;
+        
     }
      
     &__labelFormato00{
@@ -38,6 +69,7 @@
         font-size: 25px;
         text-align: center;
         text-transform: uppercase;
+        
     }
 
     &__labelFormato01{
@@ -52,15 +84,41 @@
         height: 20px;
         color: rgb(243, 242, 237);
         font-size: 7em;
+
+        @media screen and (max-width:534px) { 
+
+          display:block;
+          width: 20px;
+          
+         }
+     
+        @media screen and (max-width:320px) { 
+    
+          display:block;
+          width: 20px;
+          
+         }
+       
     }
+
      &__texTarea,&__nombreApellido{
         text-transform: capitalize;
         font-size: 1.3em;
-
         padding: 0 10px;
         margin: 0;
         width: 400px;
-        height: 30px
+        height: 30px;
+
+        @media screen and (max-width:840px) { 
+
+          width: 300px;
+          
+         }
+        @media screen and (max-width:567px) { 
+
+          width: 200px;
+          
+         }
     } 
      &__texTarea1{
         text-transform: capitalize;
@@ -68,7 +126,17 @@
         padding: 0 10px;
         margin: 0;
         width: 400px;
-        height: 100px
+        height: 100px;
+        @media screen and (max-width:840px) { 
+
+          width: 300px;
+          
+         }
+        @media screen and (max-width:567px) { 
+
+          width: 200px;
+          
+         }
     } 
    
   }
@@ -105,11 +173,22 @@
     margin-top: 15px;
     z-index:3; 
     justify-content: space-around;
+    @include flexFil();
+
+    @media screen and (max-width:567px) { 
+      grid-area: 9 /3 / 11/ 10;
+      
+      height: 300px;
+      @include flexColNoWrap();
+     }
+ 
 
      & h5{
         font-size: large;
         font-weight: 700;
-     }   
+        
+     } 
+     
     
     &__seccionArea00{
         height: auto;
@@ -118,6 +197,7 @@
         flex-direction: column;
         align-items: center;
         color: white;
+       
 
         &__logoLlamar{
            /*  background-image: url("../img/logoJoaEzis00.svg");
@@ -126,7 +206,8 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover; */
-        }
+        }        
+
 
         &__logoUbicacion{
               /*  background-image: url("../img/logoJoaEzis00.svg");
@@ -136,6 +217,7 @@
             background-repeat: no-repeat;
             background-size: cover; */
         }
+
         &__logoHorarios{
               /*  background-image: url("../img/logoJoaEzis00.svg");
             height: 60px;
@@ -144,11 +226,16 @@
             background-repeat: no-repeat;
             background-size: cover; */
         }
-
+        &__p01{
+          @media screen and (max-width:567px){
+            font-size: 125%;
+          }
+         }
+       
+        }
     } 
-
     
-  }
+  
 
   .h05Footer{
     /* grid-area: 10 / 1 / 11 / 13;  */

@@ -595,6 +595,23 @@ footer {
   background-color: rgba(99, 106, 106, 0.331);
   justify-content: center;
   align-content: center; }
+  @media screen and (max-width: 567px) {
+    .padreGrid05 {
+      grid-template-rows: repeat(9, 90px);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px; } }
+  @media screen and (max-width: 857px) {
+    .padreGrid05 {
+      display: block; } }
+  @media screen and (max-width: 567px) {
+    .padreGrid05 {
+      display: block; } }
+  @media screen and (max-width: 360px) {
+    .padreGrid05 {
+      display: block; } }
+  @media screen and (max-width: 320px) {
+    .padreGrid05 {
+      display: block; } }
 
 .h05Seccion01 {
   grid-area: 1 / 2 / 9 /9;
@@ -628,6 +645,14 @@ footer {
     height: 20px;
     color: #f3f2ed;
     font-size: 7em; }
+    @media screen and (max-width: 534px) {
+      .h05Seccion01__inputFormato01 {
+        display: block;
+        width: 20px; } }
+    @media screen and (max-width: 320px) {
+      .h05Seccion01__inputFormato01 {
+        display: block;
+        width: 20px; } }
   .h05Seccion01__texTarea, .h05Seccion01__nombreApellido {
     text-transform: capitalize;
     font-size: 1.3em;
@@ -635,6 +660,12 @@ footer {
     margin: 0;
     width: 400px;
     height: 30px; }
+    @media screen and (max-width: 840px) {
+      .h05Seccion01__texTarea, .h05Seccion01__nombreApellido {
+        width: 300px; } }
+    @media screen and (max-width: 567px) {
+      .h05Seccion01__texTarea, .h05Seccion01__nombreApellido {
+        width: 200px; } }
   .h05Seccion01__texTarea1 {
     text-transform: capitalize;
     font-size: 1.2em;
@@ -642,6 +673,12 @@ footer {
     margin: 0;
     width: 400px;
     height: 100px; }
+    @media screen and (max-width: 840px) {
+      .h05Seccion01__texTarea1 {
+        width: 300px; } }
+    @media screen and (max-width: 567px) {
+      .h05Seccion01__texTarea1 {
+        width: 200px; } }
 
 .h05Seccion02 {
   grid-area: 1 / 6 / 8 / 11;
@@ -668,7 +705,23 @@ footer {
   height: 150px;
   margin-top: 15px;
   z-index: 3;
-  justify-content: space-around; }
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 567px) {
+    .h05Seccion03 {
+      grid-area: 9 /3 / 11/ 10;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-wrap: nowrap; } }
   .h05Seccion03 h5 {
     font-size: large;
     font-weight: 700; }
@@ -700,6 +753,9 @@ footer {
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover; */ }
+    @media screen and (max-width: 567px) {
+      .h05Seccion03__seccionArea00__p01 {
+        font-size: 125%; } }
 
 .h05Footer {
   /* grid-area: 10 / 1 / 11 / 13;  */ }
