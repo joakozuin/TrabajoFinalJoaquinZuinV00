@@ -20,9 +20,9 @@ header {
         justify-content:space-around;
         align-items: center;
         &__logoImg00{
-            background-image: url("../img/logoJoaEzis00.svg");
-            height: 60px;
-            width: 60px;
+            background-image: url("../img/logoJoaEzis02.svg");
+            height: 80px;
+            width: 80px;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -64,16 +64,24 @@ header {
    }
 
    .active {
-    background: #c4c9c9;
-    color: #64f1f5;
-    text-shadow: 1px 1px 3px rgba(64,64,64,1);
-    font-size: 1.1em;
-    font-weight:500;
+    background: #c2d6d6;
+   
   }
 
    /* Set the border color to the desired color */
    .navbar-light .navbar-toggler {
     border-color: rgb(28, 30, 29);
   }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.392);
+ }
+ .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+  color: #64f1f5;
+  text-shadow: 1px 1px 2px rgb(30, 31, 31);
+  font-size: 1em;
+  font-weight:500;
+}
+
   /*Fin Encabezado de página*/
   /*****************************/

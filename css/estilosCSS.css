@@ -129,9 +129,9 @@ header {
     justify-content: space-around;
     align-items: center; }
     .navegacion__logo00__logoImg00 {
-      background-image: url("../img/logoJoaEzis00.svg");
-      height: 60px;
-      width: 60px;
+      background-image: url("../img/logoJoaEzis02.svg");
+      height: 80px;
+      width: 80px;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -164,15 +164,20 @@ header {
   color: #64f1f5; }
 
 .active {
-  background: #c4c9c9;
-  color: #64f1f5;
-  text-shadow: 1px 1px 3px #404040;
-  font-size: 1.1em;
-  font-weight: 500; }
+  background: #c2d6d6; }
 
 /* Set the border color to the desired color */
 .navbar-light .navbar-toggler {
   border-color: #1c1e1d; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.392); }
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+  color: #64f1f5;
+  text-shadow: 1px 1px 2px #1e1f1f;
+  font-size: 1em;
+  font-weight: 500; }
 
 /*Fin Encabezado de página*/
 /*****************************/
@@ -193,7 +198,7 @@ footer {
   align-content: center;
   align-items: center;
   flex-wrap: wrap; }
-  @media screen and (max-width: 567px) {
+  @media screen and (max-width: 640px) {
     footer {
       height: 250px;
       display: flex;
@@ -209,7 +214,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column; }
-  @media screen and (max-width: 567px) {
+  @media screen and (max-width: 640px) {
     .footArea00 {
       width: 40%; } }
   .footArea00__h3 {
@@ -223,17 +228,17 @@ footer {
 
 .footArea01 {
   height: auto;
-  width: 60%;
+  width: 50%;
   padding: 5px;
   display: flex;
   justify-content: center; }
-  @media screen and (max-width: 567px) {
+  @media screen and (max-width: 640px) {
     .footArea01 {
       width: 20%; } }
   .footArea01__logoImg01 {
-    background-image: url("../img/logoJoaEzis00.svg");
-    height: 60px;
-    width: 60px;
+    background-image: url("../img/logoJoaEzis03.svg");
+    height: 90px;
+    width: 90px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -241,17 +246,18 @@ footer {
 .footArea02 {
   height: auto;
   width: 20%;
+  margin-right: 20px;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: row; }
-  @media screen and (max-width: 567px) {
+  @media screen and (max-width: 640px) {
     .footArea02 {
       width: 40%; } }
   .footArea02__areaLogo {
     height: 30px;
     width: 30px;
-    margin-right: 20px;
+    margin-right: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
