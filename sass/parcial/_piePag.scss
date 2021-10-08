@@ -14,7 +14,7 @@ footer {
     @include flexFil();
 
     @media screen and (max-width:640px) { 
-      height: 250px;
+      height: 300px;
       @include flexColNoWrap();
      }
      
