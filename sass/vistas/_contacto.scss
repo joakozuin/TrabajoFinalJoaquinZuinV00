@@ -128,20 +128,17 @@
      } 
     &__seccionArea00{
         height: auto;
-        width: 25%;
+        width: 33%;
         color: white;
+
+            @include flexColNoWrap();
+
         @media screen and (max-width:567px) { 
           width: 90%;
-          margin-left: 30px;;
-         }
-        
-        &-ord{
-          @include flexColNoWrap();
-          @media screen and (max-width:567px) { 
+          margin-left: 30px;
             @include flexFilNoWrap();
             justify-content: left;
-           }
-        }
+         }
        
         &__logoLlamar{
             background-image: url("../img/telefono.svg");

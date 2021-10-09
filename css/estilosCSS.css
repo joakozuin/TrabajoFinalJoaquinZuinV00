@@ -710,28 +710,25 @@ footer {
     margin-left: 10px; }
   .h05Seccion03__seccionArea00 {
     height: auto;
-    width: 25%;
-    color: white; }
+    width: 33%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap; }
     @media screen and (max-width: 567px) {
       .h05Seccion03__seccionArea00 {
         width: 90%;
-        margin-left: 30px; } }
-    .h05Seccion03__seccionArea00-ord {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      flex-wrap: nowrap; }
-      @media screen and (max-width: 567px) {
-        .h05Seccion03__seccionArea00-ord {
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-content: center;
-          align-items: center;
-          flex-wrap: nowrap;
-          justify-content: left; } }
+        margin-left: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: left; } }
     .h05Seccion03__seccionArea00__logoLlamar {
       background-image: url("../img/telefono.svg");
       height: 30px;
