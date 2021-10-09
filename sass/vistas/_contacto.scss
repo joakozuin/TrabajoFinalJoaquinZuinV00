@@ -7,39 +7,15 @@
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     /* height: 600px; */
-    background-color: rgba(99, 106, 106, 0.331);
+    background-color: rgb(255, 255, 255);
     justify-content: center;
     align-content: center;
-    @media screen and (max-width:567px) { 
-      grid-template-rows: repeat(9, 90px);
-      grid-column-gap: 10px;
-      grid-row-gap: 10px;
-      
-     }
-     @media screen and (max-width:857px) { 
+     @media screen and (max-width:850px) { 
 
-      display:block;
+      @include flexColNoWrap();
       
      }
      
-     @media screen and (max-width:567px) { 
-
-      display:block;
-      
-     }
-     @media screen and (max-width:360px) { 
-    
-      display:block;
-     
-     }
-     @media screen and (max-width:320px) { 
-    
-      display:block;
-     
-     }
-    
-     
-
   }
 
   .h05Seccion01{
@@ -56,191 +32,156 @@
         margin: 10px auto;
         width:90%;
     }
-
     &__elementFormCentrado{
         padding-left: 50px;
         padding-top: 10px;
-        padding-bottom: 10px;
-        
+        padding-bottom: 10px;  
     }
-     
     &__labelFormato00{
         color: rgb(243, 242, 237);
         font-size: 25px;
         text-align: center;
-        text-transform: uppercase;
-        
+        text-transform: uppercase; 
     }
-
     &__labelFormato01{
         color: rgb(243, 242, 237);
         font-size: medium;  
     }
-    
     &__inputFormato01{
         padding: 0;
         margin-left: 15px;
-        width: 60px;
+        width: 50px;
         height: 20px;
         color: rgb(243, 242, 237);
         font-size: 7em;
-
         @media screen and (max-width:534px) { 
-
+          width: 20px;
+         }
+         @media screen and (max-width:320px) { 
           display:block;
           width: 20px;
-          
-         }
-     
-        @media screen and (max-width:320px) { 
-    
-          display:block;
-          width: 20px;
-          
-         }
-       
+         }  
     }
-
      &__texTarea,&__nombreApellido{
         text-transform: capitalize;
         font-size: 1.3em;
         padding: 0 10px;
         margin: 0;
-        width: 400px;
+        width:90%;
         height: 30px;
 
-        @media screen and (max-width:840px) { 
-
-          width: 300px;
-          
-         }
-        @media screen and (max-width:567px) { 
-
-          width: 200px;
-          
-         }
     } 
      &__texTarea1{
         text-transform: capitalize;
         font-size: 1.2em;
         padding: 0 10px;
         margin: 0;
-        width: 400px;
+        width: 90%;
         height: 100px;
-        @media screen and (max-width:840px) { 
 
-          width: 300px;
-          
-         }
-        @media screen and (max-width:567px) { 
-
-          width: 200px;
-          
-         }
     } 
    
   }
 
-  
- 
-
-
-
-  .h05Seccion02{
-    grid-area: 1 / 6 / 8 / 11;
+   .h05Seccion02{
+    grid-area: 1 / 1 / 10 / 13;
     z-index:1;
     width: 100%;
-    /*   height: 450px; */
-     /*  background-image: url(../img/imagen02.jpeg); */
+    background-image: url(../img/imagen02.jpeg);
       background-size: cover;
       background-color:white;
-     /*  border-style: solid; */
-     /*  border-width: 1px; */
-     /*  margin: 10px; */
-      margin-top:15px;
+      margin-top:10px;
       margin-right: 20px;
+
+      @media screen and (max-width:850px) { 
+
+        display: none;
+        
+       }
   }
+
 
   /* Estilo Area TELEFONO,NUESTRA UBICACION, HORARIO*/
 .h05Seccion03{
     grid-area:8 /3 / 9 / 12;
-    background-color:rgba(116, 113, 113, 0.824);
+    background-color:rgba(116, 113, 113, 0.919);
     width: 100%;
     border-style: solid;
     border-width: 1px;
-    box-shadow: 1px 1px 1px 1px rgb(252, 248, 248);
-    height: 150px;
-    margin-top: 15px;
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    height: 130px;
+    margin-top: 0px;
     z-index:3; 
-    justify-content: space-around;
-    @include flexFil();
+    
+    @include flexFilNoWrap();
+    justify-content:space-between;
 
-    @media screen and (max-width:567px) { 
-      grid-area: 9 /3 / 11/ 10;
-      
-      height: 300px;
+     @media screen and (max-width:567px) { 
+      height: 200px;
       @include flexColNoWrap();
      }
- 
 
      & h5{
         font-size: large;
         font-weight: 700;
-        
+        margin-left: 10px;
      } 
-     
-    
     &__seccionArea00{
         height: auto;
         width: 25%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         color: white;
+        @media screen and (max-width:567px) { 
+          width: 90%;
+          margin-left: 30px;;
+         }
+        
+        &-ord{
+          @include flexColNoWrap();
+          @media screen and (max-width:567px) { 
+            @include flexFilNoWrap();
+            justify-content: left;
+           }
+        }
        
-
         &__logoLlamar{
-           /*  background-image: url("../img/logoJoaEzis00.svg");
-            height: 60px;
-            width: 60px;
+            background-image: url("../img/telefono.svg");
+            height: 30px;
+            width: 30px;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover; */
+            background-size: cover; 
         }        
 
-
         &__logoUbicacion{
-              /*  background-image: url("../img/logoJoaEzis00.svg");
-            height: 60px;
-            width: 60px;
+           background-image: url("../img/pin-icon.svg");
+            height: 30px;
+            width: 30px;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover; */
+            background-size: cover; 
         }
 
         &__logoHorarios{
-              /*  background-image: url("../img/logoJoaEzis00.svg");
-            height: 60px;
-            width: 60px;
+            background-image: url("../img/clock-icon.svg");
+            height: 30px;
+            width: 30px;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover; */
+            background-size: cover;
         }
         &__p01{
+          font-size: 1.2em;
+          margin-left: 20px;
           @media screen and (max-width:567px){
-            font-size: 125%;
+            font-size: 1em;
           }
+
+
          }
        
         }
     } 
-    
   
-
-  .h05Footer{
-    /* grid-area: 10 / 1 / 11 / 13;  */
-  }
-
 
 /*Fin Vista Página Contacto*/
 /************************/
