@@ -406,6 +406,8 @@ footer {
 /*Vista sistemaWeb.html*/
 /**********************/
 .h02Seccion01 {
+  background-image: url(../img/imagen02.jpeg);
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -467,6 +469,8 @@ footer {
 /*Vista digitalizacion3D.html*/
 /****************************/
 .h03Seccion01 {
+  background-image: url(../img/imagen02.jpeg);
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -528,6 +532,8 @@ footer {
 /*Vista fabricacion3D.html*/
 /**********************/
 .h04Seccion01 {
+  background-image: url(../img/imagen02.jpeg);
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: center;

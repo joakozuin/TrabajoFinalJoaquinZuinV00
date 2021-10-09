@@ -1,6 +1,8 @@
 /*Vista sistemaWeb.html*/
 /**********************/
 .h02Seccion01{
+  background-image: url(../img/imagen02.jpeg);
+  background-size: cover;
   @include flexFil();
      &__fondo05{
         width:550px;
